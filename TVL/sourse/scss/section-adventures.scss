@@ -1,0 +1,352 @@
+.section-adventures {
+
+	button {
+		display: block;
+		margin: 0 auto;
+		border: 1px solid $red;
+		background-color: $white;
+		color: $red;
+		cursor: pointer;
+		width: 170px;
+		height: 48px;
+		font-family: 'Lexend Zetta';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;
+		letter-spacing: -3px;
+		text-transform: uppercase;
+		margin-top: 68px;
+		margin-bottom: 192px;
+
+		&:hover {
+			border: 1px solid $red;
+			background-color: $red;
+			color: $white;
+			transition: 1s;
+		}
+	}
+}
+
+.section-adventures__text {
+	padding: 72px 0 69px 135px;
+
+	p {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 32px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		color: $gray;
+		margin-bottom: 33px;
+	}
+
+	h3 {
+		font-family: 'Lexend Zetta';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 56px;
+		line-height: 64px;
+		letter-spacing: -12px;
+		color: $black;
+		width: 662px;
+	}
+}
+
+.catalog-adventures {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	li:nth-child(4) {
+		background-color: $blue;
+		
+		p {
+			color: $white;
+		}
+	}
+
+	li:nth-last-child(-n+4) {
+		background-color: $bgcGrey;
+	}
+}
+
+.catalog-adventures__card {
+	width: 270px;
+	height: 352px;
+	background-color: $bgcSection;
+	margin-right: 30px;
+	margin-bottom: 32px;
+}
+
+.wrapper-text {
+	padding: 24px 0 0 32px;
+	
+	p {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+	}
+	
+	p:nth-child(1) {
+		font-size: 20px;
+		line-height: 32px;
+		color: $gray;
+		margin-bottom: 7px;
+	}
+	
+	p:nth-child(2) {
+		font-size: 14px;
+		line-height: 24px;
+		color: $darkLight;
+		margin-bottom: 18px;
+	}
+	
+	p:nth-child(3) {
+		font-family: 'Lexend Zetta';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 40px;
+		line-height: 48px;
+		letter-spacing: -8px;
+		color: $gray;
+		margin-bottom: 23px;
+	}
+}
+
+.function-crntener {
+	display: flex;
+	justify-content: center;
+}
+
+.function-crntener__img {
+	position: relative;
+
+	img:nth-child(2) {
+		position: absolute;
+		top: 98px;
+		left: 301px;
+	}
+}
+
+.function-crntener-filter {
+	padding: 20px 0 0 230px;
+
+	h3 {
+		font-family: 'Lexend Zetta';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 56px;
+		line-height: 64px;
+		letter-spacing: -12px;
+		color: $gray;
+		width: 400px;
+		margin-bottom: 29px;
+	}
+
+	p {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		color: $gray;
+	}
+
+	p:nth-child(1) {
+		font-size: 16px;
+		line-height: 32px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		margin-bottom: 33px;
+	}
+
+	p:nth-child(3) {
+		font-size: 20px;
+		line-height: 32px;
+		width: 470px;
+		min-height: 74px;
+	} 
+
+	button {
+		width: 154px;
+		height: 48px;
+		background-color: $red;
+		color: $white;
+		margin: 0;
+		margin-top: 57px;
+
+		&:hover {
+			background-color: $white;
+			color: $red;
+		}
+	}
+}
+
+.checkbox-flex {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 37px;
+}
+
+.checkbox-flex__container {
+	margin-right: 86px;
+}
+
+.checkbox {
+	position: relative;
+	margin-bottom: 32px;
+
+	
+	label:nth-child(2n+1) {
+		margin-right: 103px;
+	}
+	
+	input, label {
+		cursor: pointer;
+	}
+}
+
+.checkbox__input {
+	-webkit-appearance: none;
+	appearance: none;
+	position: absolute;
+}
+
+.checkbox__label {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	color: $gray;
+	padding-left: 48px;
+}
+
+.checkbox__label::before {
+	content: "";
+	display: block;
+	border: 1px solid $red;
+	border-radius: 50%;
+	background-color: $white;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.checkbox__label::after {
+	content: "";
+	display: block;
+	background: url('../img-adventures/mark.svg') no-repeat;
+	width: 24px;
+	height: 20px;
+	position: absolute;
+	opacity: 0;
+	top: 3px;
+	left: 10px;
+	z-index: 2;
+}
+
+.checkbox__input:checked + .checkbox__label::after {
+	opacity: 1;
+}
+
+.container-reviews__text {
+	margin-top: 203px;
+
+	h3 {
+		font-family: 'Lexend Zetta';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 56px;
+		line-height: 64px;
+		text-align: center;
+		margin: 0 auto;
+		letter-spacing: -12px;
+		width: 525px;
+	}
+
+	p {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 32px;
+		text-align: center;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		color: $gray;
+		margin-bottom: 34px;
+	}
+}
+
+.container-comments {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.comments-card {
+	width: 354px;
+	min-height: 288px;
+	margin-left: 46px;
+	margin-top: 67px;
+	background-color: $bgcGrey;
+	position: relative;
+
+	p {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 32px;
+		color: $gray;
+		padding: 52px 48px;
+	}
+
+	img {
+		position: absolute;
+		top: -20px;
+		left: 48px;
+	}
+
+	div {
+		border: 32px solid transparent; border-left: 32px solid $bgcGrey; border-top: 0 solid $bgcGrey;
+		position: absolute;
+		bottom: -30px;
+		left: 0;
+	}
+}
+
+.autor {
+	margin-left: 25px;
+	margin-top: 51px;
+	display: flex;
+
+	p {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+	}
+
+	p:nth-child(1) {
+		font-size: 20px;
+		line-height: 32px;
+		color: $black;
+	}
+
+	
+	p:nth-child(2) {
+		font-size: 14px;
+		line-height: 24px;
+		color: $darkLight;
+	}
+
+	div {
+		margin-left: 24px;
+	}
+}

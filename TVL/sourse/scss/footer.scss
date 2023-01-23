@@ -1,0 +1,104 @@
+.footer {
+	background-color: $bgfooter;
+	padding: 57px 135px;
+
+
+
+	h2 {
+		font-family: 'Lexend Zetta';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 40px;
+		line-height: 48px;
+		letter-spacing: -8px;
+		color: $white;
+		margin-right: 207px;
+	}
+}
+
+.navigation-footer {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 79px;
+
+	p {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 32px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		color: $rgbaGray;
+		margin-right: 220px;
+		margin-bottom: 16px;
+		margin-top: 15px;
+	}
+
+	a {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 32px;
+		color: $white;
+
+		&:hover {
+			color: $rgbaGray;
+			transition: 0.5s;
+		}
+	}
+}
+
+.block-icon {
+	display: flex;
+
+	li {
+		margin-right: 8px;
+		width: 48px;
+		height: 48px;
+		background-color: $transparent;
+		border: 1px solid $rgbaGray;
+		border-radius: 50%;
+		position: relative;
+	}
+	svg {
+		margin-right: 43px;
+		position: absolute;
+		top: 16px;
+		left: 17px;
+	}
+}
+
+.footer__documentation {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid $gray;
+
+	p {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 32px;
+		color: $darkLight;
+		margin-top: 41px;
+	}
+
+	a {
+		display: inline-block;
+		margin-top: 41px;
+		margin-right: 85px;
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 32px;
+		color: $white;
+
+		&:hover {
+			color: $rgbaGray;
+			transition: 0.5s;
+		}
+	}
+}

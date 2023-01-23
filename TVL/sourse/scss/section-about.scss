@@ -1,0 +1,138 @@
+.section-about {
+	padding: 463px 135px 208px 127px;
+	display: flex;
+}
+
+.about-container {
+	position: relative;
+
+	img {
+		position: relative;
+		top: -117px;
+		left: -150px;
+		z-index: 1;
+	}
+
+	button {
+		border: 0;
+		background-color: $red;
+		width: 154px;
+		height: 48px;
+		box-sizing: border-box;
+		cursor: pointer;
+		font-family: 'Lexend Zetta';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;
+		letter-spacing: -3px;
+		text-transform: uppercase;
+		color: $white;
+		margin-top: 32px;
+		margin-left: 8px;
+
+		&:hover {
+			background-color: $white;
+			color: $red;
+			transition: 1s;
+		}
+	}
+
+	p {
+		font-style: normal;
+		font-weight: 400;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	:nth-child(1) {
+		font-size: 16px;
+		line-height: 32px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		color: $darkLight;
+		margin: 15px 0 31px 8px;
+		}
+	
+	h3 {
+		font-family: 'Lexend Zetta';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 56px;
+		line-height: 64px;
+		color: $gray;
+		letter-spacing: -12px;
+		margin-bottom: 31px;
+	} 
+
+	:nth-child(3) {
+		font-size: 20px;
+		line-height: 32px;
+		color: $gray;
+		width: 470px;
+		margin-left: 8px;
+		margin-bottom: 47px;
+	}
+
+	b {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 32px;
+		color: $gray;
+		margin-left: 93px;
+		margin-bottom: 3px;
+	}
+
+	:nth-child(5) {
+		font-size: 16px;
+		line-height: 32px;
+		color: $darkLight;
+		width: 370px;
+		margin-left: 93px;
+	} 
+}
+
+.about-img {
+	margin-left: 162px;
+	position: relative;
+
+	img:nth-child(2) {
+		position: absolute;
+		bottom: 100px;
+		left: -60px;
+		z-index: 1;
+	}
+}
+
+.about-img-author {
+	width: 270px;
+	height: 400px;
+	box-sizing: border-box;
+	background-color: $red;
+	position: absolute;
+	top: 96px;
+	left: -100px;
+	padding: 40px 32px 20px;
+
+	p {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+	}
+
+	p:nth-child(1) {
+		font-size: 20px;
+		line-height: 32px;
+		color: $white;
+		width: 206px;
+		margin-bottom: 12px;
+	}
+
+	p:nth-child(2) {
+		font-size: 16px;
+		line-height: 32px;
+		color: $rgbaGray;
+	}
+}

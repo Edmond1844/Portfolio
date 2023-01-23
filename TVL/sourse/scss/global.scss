@@ -1,0 +1,89 @@
+/* цвета */
+$white: #ffffff;
+$blue: #6347F9;
+$gray: #efefef;
+$yellow: yellow;
+$black: #000000;
+$darkLight: #aaaaaa;
+$gray: #333333;
+$red: #fe7354;
+$rgbaGray: rgba(255, 255, 255, 0.502972);
+$bgcSection: rgba(254, 114, 84, 0.08);
+$transparent: rgba(0, 0, 0, 0.08);
+$bgcGrey: #f5f6f8;
+$bgcBlue: #112e4d;
+$green: #52aa7f;
+$bgfooter: #0c1a29;
+
+
+/* шрифты */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.page {
+	width: 1440px;
+	min-height: 8432px;
+	margin: 0 auto;
+	background-color: $white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	font-size: 16px;
+}
+
+::-webkit-scrollbar {
+	width: 13px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: $gray;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: $blue;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	border: 0 none;
+	padding: 0;
+	margin: 0;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}

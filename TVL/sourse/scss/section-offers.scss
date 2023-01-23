@@ -1,0 +1,94 @@
+.section-offers {
+	background-color: $bgcSection;
+	width: 1440px;
+	min-height: 944px;
+	padding-top: 75px;
+}
+
+.section-offers__title {
+	text-align: center;
+	p {
+		text-transform: uppercase;
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 32px;
+		letter-spacing: 3px;
+		color: $gray;
+		margin-bottom: 34px;
+		
+	}
+
+	h3 {
+		font-family: 'Lexend Zetta';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 56px;
+		line-height: 64px;
+		letter-spacing: -12px;
+		color: $black;
+		width: 573px;
+		display: inline-block;
+		margin-bottom: 67px;
+	}
+}
+	
+
+
+.wrapper-offers {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 130px;
+}
+
+.price {
+	width: 144px;
+	height: 144px;
+	box-sizing: border-box;
+	background-color: $red;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 112px;
+	left: 32px;
+	z-index: 1;
+
+	p {
+		font-family: 'Lexend Zetta';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 40px;
+		line-height: 48px;
+		letter-spacing: -8px;
+		color: $white;
+		text-align: center;
+		margin-top: 30%;
+	}
+}
+
+.wrapper-offers__grid {
+	position: relative;
+	display: grid;
+	grid-template-columns: 400px;
+	grid-template-rows: min-content min-content min-content;
+
+	p:nth-child(3) {
+		font-family: 'Lexend Zetta';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 40px;
+		line-height: 48px;
+		letter-spacing: -8px;
+		color: $black;
+	}
+
+	p:nth-child(4) {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 32px;
+		color: $gray;
+	}
+}
+

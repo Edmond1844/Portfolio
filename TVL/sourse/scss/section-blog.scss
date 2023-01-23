@@ -1,0 +1,290 @@
+.section-blog {
+	background-color:  $bgcBlue;
+	width: 100%;
+	margin-top: 240px;
+
+	p {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+	}
+
+	h3 {
+		font-family: 'Lexend Zetta';
+		font-style: normal;
+		font-weight: 400;
+	}
+}
+
+.section-blog__flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+
+	button {
+		font-family: 'Lexend Zetta';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;
+		letter-spacing: -3px;
+		text-transform: uppercase;
+		width: 170px;	
+		height: 48px;
+		border: 1px solid $rgbaGray;
+		background-color: $bgcBlue;
+		color: $white;
+		margin-bottom: 69px;
+		margin-right: 135px;
+		cursor: pointer;
+
+		&:hover {
+			border: 1px solid $bgcBlue;
+			background-color: $white;
+			color: $bgcBlue;
+			transition: 1s;
+		}
+	}
+}
+
+.blog-text {
+	padding: 74px 0 69px 127px;
+
+	p {
+		font-size: 16px;
+		line-height: 32px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		color: $rgbaGray;
+		margin-bottom: 33px;
+	}
+
+	h3 {
+		font-size: 56px;
+		line-height: 64px;
+		letter-spacing: -12px;
+		color: $white;
+		width: 477px;
+	}
+}
+
+.section-blog__flex-travel {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 135px 89px;
+}
+
+.travel-block {
+	width: 570px;
+	min-height: 560px;
+	background-color: $white;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.travel-block__wrapper-text {
+	display: grid;
+	grid-template-columns: 570px;
+	grid-template-rows: min-content min-content min-content 336px;
+	p {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		margin-left: 48px;
+	}
+
+	img {
+		padding: 0;
+	}
+
+	p:nth-child(1) {
+		font-size: 16px;
+		line-height: 32px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		color: $gray;
+		margin-bottom: 13px;
+		margin-top: 28px;
+	}
+
+	p:nth-child(2) {
+		width: 370px;
+		font-size: 24px;
+		line-height: 32px;
+		color: $black;
+		margin-bottom: 19px;
+	}
+
+	p:nth-child(3) {
+		font-size: 16px;
+		line-height: 32px;
+		color: $gray;
+		margin-bottom: 38px;
+	}
+}
+
+.travel-block__wrapper-photo {
+	width: 64px;
+	height: 64px;
+	background-color: $blue;
+	border-radius: 50%;
+	position: absolute;
+	top: 48px;
+	right: 48px;
+
+	img {
+		margin-top: 9px;
+		margin-left: 9px;
+	}
+}
+
+.news-flex {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid $darkLight;
+	width: 1170px;
+	margin: 0 auto;
+
+
+	h3 {
+		font-size: 40px;
+		line-height: 48px;
+		letter-spacing: -8px;
+		color: $white;
+		margin-bottom: 5px;
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 32px;
+		color: $darkLight;
+	}
+}
+
+.form-email {
+	display: grid;
+    grid-template-columns: 270px 170px;
+	grid-column-gap: 30px;
+	margin-bottom: 120px;
+
+	input {
+		background-color: $white;
+		height: 48px;
+		font-size: 16px;
+		line-height: 32px;
+		color: $darkLight;
+		border: 0;
+		padding-left: 16px;
+
+		&:hover {
+			background-color: $rgbaGray;
+			transition: 0.5s;	
+		}
+	}
+
+	button {
+		font-family: 'Lexend Zetta';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;
+		letter-spacing: -3px;
+		text-transform: uppercase;
+		color: $white;
+		background-color: $green;
+		border: 0;
+		cursor: pointer;
+
+		&:hover {
+			color: $green;
+			background-color: $white;
+			border: 1px solid $white;
+			transition: 1s;
+		}
+	}
+}
+
+.block-contact {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 111px;
+	border-bottom: 3px solid $white;
+
+	iframe {
+		margin-bottom: 160px;
+	}
+}
+
+.block-contact__text {
+	padding: 0 159px 0 122px;
+	width: 454px;
+	min-height: 592px;
+
+	p {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		margin-bottom: 33px;
+	}
+
+	p:nth-child(1) {
+		font-size: 16px;
+		line-height: 32px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		color: $darkLight;
+	}
+
+	p:nth-child(3) {
+		font-size: 20px;
+		line-height: 32px;
+		color: $white;
+	}
+
+	h3 {
+		font-family: 'Lexend Zetta';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 56px;
+		line-height: 64px;
+		letter-spacing: -12px;
+		color: $white;
+		display: inline-block;
+		margin-bottom: 29px;
+	}
+
+	a {
+		color: $rgbaGray;
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		display: block;
+		margin-bottom: 35px;
+		margin-left: 35px;
+		position: relative;
+
+		svg {
+			position: absolute;
+			top: 0;
+			left: -35px;
+			color: $rgbaGray;
+			margin-right: 29px;
+		}
+
+		&:hover {
+
+			color: $white;
+			transition: 0.5s;
+
+			svg {
+				color: $white;
+				transition: 0.5s;
+			}
+		}
+
+
+	}
+}
